@@ -1,0 +1,55 @@
+
+body {
+    background-image: none;
+}
+
+.anchor {
+    display: block;
+    height: 76px; /*same height as header*/
+    /*margin-top: -76px; !*same height as header*!*/
+    visibility: hidden;
+}
+
+#help-nav {
+    position: fixed;
+}
+nav .nav .active > a {
+    background-color: transparent;
+    border-left: 2px solid #428bca;
+    border-radius: 0;
+    color: #428bca
+}
+
+nav > .nav > li > a {
+    font-weight: bold;;
+}
+
+nav .nav .nav {
+    line-height: 80%;
+    font-size: 0.85em;
+}
+
+nav .nav .nav li.active > a {
+    border-left: 2px solid #428bca;
+}
+
+.help .panel-heading h1 {
+    text-align: center;
+}
+
+.help_body {
+    margin: 0px 30px;
+}
+
+.help .help-steps {
+    margin: 0px 20px;
+}
+
+.help-step {
+    margin-top: 45px;
+}
+
+.help-step img {
+    margin-bottom: 20px;
+    max-width: 100%;
+}
