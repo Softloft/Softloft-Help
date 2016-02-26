@@ -1,9 +1,4 @@
-
-body {
-    background-image: none;
-}
-
-.anchor {
+.help .anchor {
     display: block;
     height: 76px; /*same height as header*/
     /*margin-top: -76px; !*same height as header*!*/
@@ -13,23 +8,24 @@ body {
 #help-nav {
     position: fixed;
 }
-nav .nav .active > a {
+
+nav#help-nav .nav .active > a {
     /*background-color: transparent;*/
     /*border-left: 4px solid #428bca;*/
     border-radius: 0;
     /*color: #428bca*/
 }
 
-nav > .nav > li > a {
+nav#help-nav > .nav > li > a {
     font-weight: bold;;
 }
 
-nav .nav .nav {
+nav#help-nav .nav .nav {
     line-height: 80%;
     font-size: 0.85em;
 }
 
-nav .nav .nav li.active > a {
+nav#help-nav .nav .nav li.active > a {
     border-left: 2px solid #428bca;
 }
 

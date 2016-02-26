@@ -2,6 +2,11 @@
 	echo $this->Html->css('help');
 	echo $this->Html->script('libs/jquery.unveil.js');
 ?>
+<style type="text/css">
+	body {
+		background-image: none;
+	}
+</style>
 <div class="container-fluid">
 	<div class="row clearfix">
 		<div class="col-md-3 hidden-xs hidden-sm">
